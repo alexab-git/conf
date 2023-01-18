@@ -8,6 +8,8 @@ set history=700
 filetype plugin on
 filetype indent on
 
+autocmd FileType yaml setl indentkeys-=<:>
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
