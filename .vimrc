@@ -2,7 +2,7 @@ set t_Co=256
 color blue
 
 set number
-set history=700
+set history=1000
 
 " Enable filetype plugins
 filetype plugin on
@@ -32,17 +32,12 @@ set tw=70
 
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
-
-
-"Always show current position
-set ruler
 
 " Height of the command bar
 set cmdheight=2
@@ -67,5 +62,6 @@ set magic
 
 " Show matching brackets when text indicator is over them
 set showmatch
+
 " How many tenths of a second to blink when matching brackets
 set mat=2
